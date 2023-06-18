@@ -42,3 +42,16 @@ Azure.Messaging.EventHubs
 
 - add a new access policy and grab the connection string to use in the azure function
 <img src="/pictures/az_function2.png" title="azure functions"  width="900">
+
+### Sending to multiple partitions
+
+- run both send and receive and see that all batches have been sent. Note that the data is evenly distributed accross partition 1 and 2
+<img src="/pictures/multiple.png" title="multiple partitions"  width="900">
+
+### Reading from the first Partitions
+
+- run both send and receive and see that all batches have been sent. Note that the data is only taken from partition 1
+<img src="/pictures/multiple2.png" title="multiple partitions"  width="900">
+
+### Event Processor class
+

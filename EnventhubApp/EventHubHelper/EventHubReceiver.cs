@@ -1,5 +1,7 @@
 ﻿using Azure.Messaging.EventHubs.Consumer;
 using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -14,9 +16,21 @@ namespace EventHubHelper
             _client = new EventHubConsumerClient(consumer_group, connection_string);
         }
 
-        public async Task GetEvents()
+        public async Task GetEvents(int partitionIndex = -1)
         {
-            await foreach (PartitionEvent _event in _client.ReadEventsAsync())
+            IAsyncEnumerable<PartitionEvent> _events;
+            if (partitionIndex == -1)
+            {
+                _events = _client.ReadEventsAsync();
+            }
+            else
+            {
+                string[] partitionIds = await _client.GetPartitionIdsAsync();
+                string PartitionID = partitionIds[partitionIndex];
+                _events = _client.ReadEventsFromPartitionAsync(PartitionID, EventPosition.Earliest);
+            }
+                
+            await foreach (PartitionEvent _event in _events)
             {
                 Console.WriteLine($"Partition ID {_event.Partition.PartitionId}");
                 Console.WriteLine($"Data Offset {_event.Data.Offset}");
