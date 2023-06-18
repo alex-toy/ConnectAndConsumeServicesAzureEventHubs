@@ -13,7 +13,7 @@
 
 ### Sending and receiving events
 
-- create a console app and install packages
+- create two console apps for send and receive and install packages
 ```
 Azure.Messaging.EventHubs
 ```
@@ -21,5 +21,13 @@ Azure.Messaging.EventHubs
 - add a *Send Access Policy* for your event hub
 <img src="/pictures/event_hub3.png" title="event hub"  width="900">
 
-- from there, grab the connection string to use in the app
+- from there, grab the connection string to use in the send app
 <img src="/pictures/event_hub4.png" title="event hub"  width="900">
+
+- do the same for the receive app
+
+- for the receive app, use the default group
+<img src="/pictures/event_hub5.png" title="event hub"  width="900">
+
+- run the apps and see the result
+<img src="/pictures/event_hub6.png" title="event hub"  width="900">

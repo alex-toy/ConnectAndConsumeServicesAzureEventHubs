@@ -6,10 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Azure.Messaging.EventHubs" Version="5.9.2" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\EventHubHelper\EventHubHelper.csproj" />
   </ItemGroup>
 

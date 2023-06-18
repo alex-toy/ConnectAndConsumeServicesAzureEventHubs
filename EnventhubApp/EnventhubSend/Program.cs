@@ -12,7 +12,7 @@ namespace EnventhubSend
         static void Main(string[] args)
         {
             string connection_string = "Endpoint=sb://alexeieventhub.servicebus.windows.net/;SharedAccessKeyName=send;SharedAccessKey=ggxvxTiXZB8b5eyzh3NBo6EyUKb/4zxFx+AEhLKsCuQ=;EntityPath=eventhub";
-            var eventHub = new EventHub(connection_string);
+            var eventHub = new EventHubSender(connection_string);
 
             List<Order> _orders = new List<Order>()
             {
