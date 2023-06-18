@@ -1,12 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Azure.Messaging.EventHubs" Version="5.9.2" />
-    <PackageReference Include="Azure.Messaging.EventHubs.Processor" Version="5.9.2" />
+    <ProjectReference Include="..\EventHubHelper\EventHubHelper.csproj" />
   </ItemGroup>
 
 </Project>

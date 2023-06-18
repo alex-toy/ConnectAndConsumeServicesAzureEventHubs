@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnventhubSend", "EnventhubSend\EnventhubSend.csproj", "{B2D57224-C2A9-4E51-9DED-99EF5B37D622}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnventhubSend", "EnventhubSend\EnventhubSend.csproj", "{B2D57224-C2A9-4E51-9DED-99EF5B37D622}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHubHelper", "EventHubHelper\EventHubHelper.csproj", "{107C9E84-9584-4214-9009-8B8E49C3655C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventHubHelper", "EventHubHelper\EventHubHelper.csproj", "{107C9E84-9584-4214-9009-8B8E49C3655C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventhubReceive", "EventhubReceive\EventhubReceive.csproj", "{CFEC5704-C9B3-41DE-B64C-5ED3B34F303F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventhubReceive", "EventhubReceive\EventhubReceive.csproj", "{CFEC5704-C9B3-41DE-B64C-5ED3B34F303F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHubFunc", "EventHubFunc\EventHubFunc.csproj", "{F1FC8265-26A0-4AFA-9ED8-34EC89864873}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventHubFunc", "EventHubFunc\EventHubFunc.csproj", "{F1FC8265-26A0-4AFA-9ED8-34EC89864873}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureEventHubProcessor", "AzureEventHubProcessor\AzureEventHubProcessor.csproj", "{AB541EB1-50EB-4554-889C-574612434265}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{F1FC8265-26A0-4AFA-9ED8-34EC89864873}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1FC8265-26A0-4AFA-9ED8-34EC89864873}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1FC8265-26A0-4AFA-9ED8-34EC89864873}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB541EB1-50EB-4554-889C-574612434265}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB541EB1-50EB-4554-889C-574612434265}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB541EB1-50EB-4554-889C-574612434265}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB541EB1-50EB-4554-889C-574612434265}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -8,8 +8,8 @@ namespace EnventhubSend
     {
         static void Main(string[] args)
         {
-            //SendToOnePartition();
-            SendToMultiplePartition();
+            SendToOnePartition();
+            //SendToMultiplePartition();
         }
 
         private static void SendToMultiplePartition()

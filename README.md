@@ -55,3 +55,17 @@ Azure.Messaging.EventHubs
 
 ### Event Processor class
 
+It will keep track of the messages that have already been read.
+
+- create console app for process and install packages
+```
+Azure.Messaging.EventHubs.Processor
+```
+
+- use the listen access policy for the hub
+<img src="/pictures/processor.png" title="event processor"  width="900">
+
+### Capture File Format
+
+- add a new capture
+<img src="/pictures/capture.png" title="capture file format"  width="900">
