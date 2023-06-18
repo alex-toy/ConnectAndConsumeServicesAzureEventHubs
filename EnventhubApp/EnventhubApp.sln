@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHubHelper", "EventHubH
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventhubReceive", "EventhubReceive\EventhubReceive.csproj", "{CFEC5704-C9B3-41DE-B64C-5ED3B34F303F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHubFunc", "EventHubFunc\EventHubFunc.csproj", "{F1FC8265-26A0-4AFA-9ED8-34EC89864873}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{CFEC5704-C9B3-41DE-B64C-5ED3B34F303F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFEC5704-C9B3-41DE-B64C-5ED3B34F303F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFEC5704-C9B3-41DE-B64C-5ED3B34F303F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1FC8265-26A0-4AFA-9ED8-34EC89864873}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1FC8265-26A0-4AFA-9ED8-34EC89864873}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1FC8265-26A0-4AFA-9ED8-34EC89864873}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1FC8265-26A0-4AFA-9ED8-34EC89864873}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

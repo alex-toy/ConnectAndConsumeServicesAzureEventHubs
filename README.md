@@ -31,3 +31,14 @@ Azure.Messaging.EventHubs
 
 - run the apps and see the result
 <img src="/pictures/event_hub6.png" title="event hub"  width="900">
+
+
+## Partitions
+
+### Azure Functions
+
+- choose event hub trigger
+<img src="/pictures/az_function.png" title="azure functions"  width="900">
+
+- add a new access policy and grab the connection string to use in the azure function
+<img src="/pictures/az_function2.png" title="azure functions"  width="900">
