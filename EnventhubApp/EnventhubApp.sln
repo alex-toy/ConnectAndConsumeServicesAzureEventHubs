@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnventhubSend", "EnventhubSend\EnventhubSend.csproj", "{B2D57224-C2A9-4E51-9DED-99EF5B37D622}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHubHelper", "EventHubHelper\EventHubHelper.csproj", "{107C9E84-9584-4214-9009-8B8E49C3655C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2D57224-C2A9-4E51-9DED-99EF5B37D622}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2D57224-C2A9-4E51-9DED-99EF5B37D622}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2D57224-C2A9-4E51-9DED-99EF5B37D622}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2D57224-C2A9-4E51-9DED-99EF5B37D622}.Release|Any CPU.Build.0 = Release|Any CPU
+		{107C9E84-9584-4214-9009-8B8E49C3655C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{107C9E84-9584-4214-9009-8B8E49C3655C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{107C9E84-9584-4214-9009-8B8E49C3655C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{107C9E84-9584-4214-9009-8B8E49C3655C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7723D2A8-5D7B-4527-A1F3-B2E07974F8DB}
+	EndGlobalSection
+EndGlobal
